@@ -6,7 +6,7 @@ PROJECT(sioclient
 
 option(BUILD_SHARED_LIBS "Build the shared library" OFF)
 option(BUILD_UNIT_TESTS "Builds unit tests target" OFF)
-option(USE_SUBMODULES "Use source in local submodules instead of system libraries" ON)
+option(USE_SUBMODULES "Use source in local submodules instead of system libraries" OFF)
 option(DISABLE_LOGGING "Do not print logging messages" OFF)
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
